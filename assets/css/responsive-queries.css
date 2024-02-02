@@ -1,0 +1,13 @@
+/* xs */
+/* sm */
+/* md */
+/* lg */
+/* xl */
+@media (min-width: 1280px) {
+  p {
+    font-weight: 100;
+  }
+}
+/* 2xl */
+
+/*# sourceMappingURL=responsive-queries.css.map */

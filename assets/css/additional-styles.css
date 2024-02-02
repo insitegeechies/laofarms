@@ -1,3 +1,107 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap') */
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+:root {
+  /* https://uicolors.app/create */
+  /* hex base #009b4d */
+  --green-haze-50: 237 255 245;
+  --green-haze-100: 214 255 234;
+  --green-haze-200: 175 255 214;
+  --green-haze-300: 113 255 183;
+  --green-haze-400: 45 251 145;
+  --green-haze-500: 2 229 114;
+  --green-haze-600: 0 191 90;
+  --green-haze-700: 0 155 77 /* base */;
+  --green-haze-800: 6 117 62;
+  --green-haze-900: 8 95 53;
+  --green-haze-950: 0 54 28;
+  /* hex base #ffcc00 */
+  --supernova-50: 255 254 231;
+  --supernova-100: 255 254 193;
+  --supernova-200: 255 248 134;
+  --supernova-300: 255 236 65;
+  --supernova-400: 255 219 13;
+  --supernova-500: 255 204 0 /* base */;
+  --supernova-600: 209 149 0;
+  --supernova-700: 166 106 2;
+  --supernova-800: 137 83 10;
+  --supernova-900: 116 67 15;
+  --supernova-950: 68 35 4;
+  /* hex base #faf5e9 */
+  --merino-50: 250 245 233 /* base */;
+  --merino-100: 247 240 221;
+  --merino-200: 238 222 186;
+  --merino-300: 228 198 141;
+  --merino-400: 216 168 95;
+  --merino-500: 207 144 64;
+  --merino-600: 193 122 53;
+  --merino-700: 160 96 46;
+  --merino-800: 129 78 43;
+  --merino-900: 104 65 38;
+  --merino-950: 56 32 18;
+}
 
+/* font-family: 'Cormorant Garamond', serif;
+ * font-family: 'Montserrat', sans-serif;
+ * font-family: 'Proza Libre', sans-serif;
+ *
+ * font-family: 'Bebas Neue', sans-serif;
+ * font-family: 'Montserrat', sans-serif;
+ *
+ * font-family: 'Lora', serif;
+ * font-family: 'Montserrat', sans-serif;
+ *
+ * font-family: 'Helvetica Neue', sans-serif; */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+nav {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+#hero {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(var(--green-haze-950), 0.75);
+  z-index: -10;
+}
+
+/* xs */
+/* sm */
+/* sm-only */
+/* md */
+/* md-only */
+/* lg */
+/* sm-only */
+/* xl */
+/* sm-only */
+/* 2xl */
+/* other queries */
+/* sm-md */
+/* md-lg */
+/* lg-xl */
 
 /*# sourceMappingURL=additional-styles.css.map */
