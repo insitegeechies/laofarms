@@ -5,3 +5,4 @@ assets/css/colors-root.css.map
 assets/css/styles.css.map
 assets/css/*.sass
 assets/css/*.css.map
+*.php
